@@ -1,0 +1,26 @@
+# Elba Property Care — robots.txt
+# Status: PRE-LANCIO (Disallow all)
+# When ready to launch, replace this file with the post-launch version below.
+
+# === PRE-LANCIO (ATTIVO) ===
+User-agent: *
+Disallow: /
+
+# === POST-LANCIO (da attivare) ===
+# User-agent: *
+# Allow: /
+# Disallow: /api/
+# Disallow: /admin/
+# Disallow: /staging/
+# Disallow: /tmp/
+#
+# User-agent: GPTBot
+# Disallow: /
+#
+# User-agent: ChatGPT-User
+# Disallow: /
+#
+# User-agent: CCBot
+# Disallow: /
+#
+# Sitemap: https://elbapropertycare.com/sitemap.xml
